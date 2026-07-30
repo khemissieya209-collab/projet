@@ -1,0 +1,30 @@
+# Environments
+.venv*
+venv/
+env/
+ENV/
+
+# Configuration and secrets
+.env
+backend/uploads/*.pdf
+!backend/uploads/Adsquare_2024 ESG Report.pdf
+!backend/uploads/RAPPORT-TLF-RSE-26.pdf
+!backend/uploads/Sample ESG Sustainability Report (1).pdf
+!backend/uploads/Sample ESG Sustainability Report.pdf
+!backend/uploads/Stage_Technicien_ENSTAB_2.pdf
+!backend/uploads/Sustainability_Report_2024_Sample.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Next.js / Node
+frontend/.next/
+frontend/node_modules/
+frontend/.git_bak/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
